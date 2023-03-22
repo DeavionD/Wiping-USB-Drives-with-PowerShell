@@ -38,3 +38,4 @@ Replace "E:" with the actual drive letter of your USB drive.
 
 Note: Be very careful when wiping USB drives, as this action cannot be undone. Make sure you have backed up any important data before running the script.
 
+<h1> Custom PowerShell Script for Wiping USB Drives END</h1>
