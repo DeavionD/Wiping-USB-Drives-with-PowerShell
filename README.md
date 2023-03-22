@@ -18,7 +18,7 @@ To create a custom PowerShell script for wiping USB drives, you can follow these
 3.  Use the following code to create a function that will wipe the USB drive:
 
   <p align="center">
-  <img src=https://i.imgur.com/yS99fca.png" alt="CopyCode"/>
+  <img src="https://i.imgur.com/yS99fca.png" alt="CopyCode"/>
   
 4.  The above code contains a function called "Wipe-USBDrive" that takes a "DrivePath" parameter, which specifies the path of the USB drive to wipe. The function uses WMI (Windows Management Instrumentation) to get the USB drive and then formats it with the NTFS file system, which will overwrite all the data on the drive.
 
@@ -31,4 +31,10 @@ The command allows your computer the execute scripts
 
 
 7.To wipe a USB drive using the custom PowerShell script, run the following command:
+
+ <img src="https://i.imgur.com/ofpz1FS.png" alt="CopyCode"/>
+  
+Replace "E:" with the actual drive letter of your USB drive.
+
+Note: Be very careful when wiping USB drives, as this action cannot be undone. Make sure you have backed up any important data before running the script.
 
